@@ -1,0 +1,42 @@
+.new-category {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .per-news {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .per-news img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .news-details {
+    text-align: center;
+  }
+  
+  #news {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+  
+  #news span {
+    color: #3498db;
+    
+  }
+  .per-news p a{
+    font-size: 20px;
+  }
+  .news{
+    background-color: #e5e5dc;
+  }
+  
